@@ -40,5 +40,13 @@ Route::post('/contact/submit', 'MessageController@submit');
 
 
 
-
 //Route::get('/manu', 'Home@index')->name('home');
+
+
+    Route::get('/admin', 'AuthController@create');
+    Route::post('/admin', 'AuthController@store');
+
+
+
+
+

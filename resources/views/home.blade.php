@@ -12,3 +12,4 @@
 @parent
 <p> This Side bar layout</p>
 @endsection
+
